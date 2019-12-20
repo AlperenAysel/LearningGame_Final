@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-LearningGame_v0/Pods-LearningGame_v0-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Charts/Charts.framework
+${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework

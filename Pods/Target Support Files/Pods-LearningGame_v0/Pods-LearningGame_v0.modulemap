@@ -1,0 +1,6 @@
+framework module Pods_LearningGame_v0 {
+  umbrella header "Pods-LearningGame_v0-umbrella.h"
+
+  export *
+  module * { export * }
+}

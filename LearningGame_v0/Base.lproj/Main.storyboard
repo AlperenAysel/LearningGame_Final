@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LearningGame_v0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iOS-stock-6-for-iPhone-X-768x1663.png" translatesAutoresizingMaskIntoConstraints="NO" id="Fff-vf-LcS">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E9c-YM-646">
+                                <rect key="frame" x="92" y="370" width="190" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.59155882199999998" green="0.65459300259999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                <state key="normal" title="Kelime Ekle">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.84848151409999994" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YJe-zZ-BpK" kind="presentation" modalTransitionStyle="coverVertical" id="Sbv-r1-0IU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xag-7j-MLs">
+                                <rect key="frame" x="92" y="500" width="190" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.59155882199999998" green="0.65459300259999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                <state key="normal" title="Egzersiz Yap">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.84848151409999994" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="m1r-fb-ovN" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="DCg-c5-E6s"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cooltext323351200125693.png" translatesAutoresizingMaskIntoConstraints="NO" id="25V-FS-wqS">
+                                <rect key="frame" x="27" y="147" width="321" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LKW-VN-Y5Z">
+                                <rect key="frame" x="92" y="630" width="190" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.59155882199999998" green="0.65459300259999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                <state key="normal" title="İstatistik">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.84848151409999994" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="AqT-5Z-e58" kind="presentation" modalTransitionStyle="coverVertical" id="QRL-I8-kx0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99588304760000002" green="0.95018321279999995" blue="0.81284672020000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dgt-8o-28O"/>
+                    <connections>
+                        <outlet property="IstatistikBtton" destination="LKW-VN-Y5Z" id="2CY-fc-5DM"/>
+                        <outlet property="KelimeEkleButton" destination="E9c-YM-646" id="uck-E8-LrD"/>
+                        <outlet property="TestEtButton" destination="Xag-7j-MLs" id="rqd-tr-2ei"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2015.2" y="133.00492610837438"/>
+        </scene>
+        <!--Test Yap Start View-->
+        <scene sceneID="Frz-pc-9sO">
+            <objects>
+                <viewController id="m1r-fb-ovN" customClass="TestYapStartView" customModule="LearningGame_v0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wwf-bZ-2sT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iOS-stock-6-for-iPhone-X-768x1663.png" translatesAutoresizingMaskIntoConstraints="NO" id="0ax-Y7-xlt">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JE5-QO-rJ4">
+                                <rect key="frame" x="112" y="404" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.59155882199999998" green="0.65459300259999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                <state key="normal" title="Başla">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.84848151409999994" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="oRN-it-8Nd" kind="presentation" modalTransitionStyle="crossDissolve" id="0jD-bl-sW3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zUN-YT-Jz8">
+                                <rect key="frame" x="137" y="586" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.44611598207698333" blue="0.34592242950177055" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                <state key="normal" title="Vazgeç">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.84848151409999994" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="JIX-nb-aRm"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Eklediğin kelimeleri ne kadar bildiğini görmek için kendini sına" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LiR-sl-8yF">
+                                <rect key="frame" x="34" y="287" width="306" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cooltext323353233102799.png" translatesAutoresizingMaskIntoConstraints="NO" id="YU3-Y0-XQj">
+                                <rect key="frame" x="67" y="116" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99588304760000002" green="0.95018321279999995" blue="0.81284672020000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="FIH-M8-M7Y"/>
+                    </view>
+                    <connections>
+                        <outlet property="StartButton" destination="JE5-QO-rJ4" id="YPv-0s-H46"/>
+                        <outlet property="VazgecButton" destination="zUN-YT-Jz8" id="ZU0-uR-ptf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6sl-og-7MV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2015" y="900"/>
+        </scene>
+        <!--Test Et View-->
+        <scene sceneID="cna-MH-yOH">
+            <objects>
+                <viewController id="oRN-it-8Nd" customClass="TestEtView" customModule="LearningGame_v0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WOz-Kh-gJh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iOS-stock-6-for-iPhone-X-768x1663.png" translatesAutoresizingMaskIntoConstraints="NO" id="D3Z-n1-xvg">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gyg-1G-TVv">
+                                <rect key="frame" x="0.0" y="768" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99588304760000002" green="0.95018321279999995" blue="0.81284672020000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="barTintColor" red="0.83164113759994507" green="0.88963669538497925" blue="0.96750229597091675" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem id="WXw-uE-gGk">
+                                        <barButtonItem key="leftBarButtonItem" title="Geri" id="rR6-jh-fVi">
+                                            <color key="tintColor" red="0.89630639550000002" green="0.37570923569999998" blue="0.97313445809999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <action selector="GeriButton:" destination="oRN-it-8Nd" id="NYh-Pw-IBa"/>
+                                                <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="coverVertical" id="SYV-Lm-UhT"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&lt;İngilizceKelime&gt;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RcK-tK-ssv">
+                                <rect key="frame" x="63" y="277" width="249" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.85021674633026123" green="0.90090006589889526" blue="0.96856504678726196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ikz-79-KtT">
+                                <rect key="frame" x="63" y="418" width="249" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.59155882199999998" green="0.65459300259999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                <state key="normal" title="Placeholder1">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.84848151409999994" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="KelimeBasButton:" destination="oRN-it-8Nd" eventType="touchUpInside" id="rxd-xM-whO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pW2-Ag-VKb">
+                                <rect key="frame" x="63" y="494" width="249" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.59155882199999998" green="0.65459300259999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                <state key="normal" title="Placeholder2">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.84848151409999994" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="KelimeBasButton:" destination="oRN-it-8Nd" eventType="touchUpInside" id="YqG-gm-b3G"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qbf-ne-TcE">
+                                <rect key="frame" x="63" y="646" width="249" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.59155882199999998" green="0.65459300259999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                <state key="normal" title="Placeholder4">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.84848151409999994" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="KelimeBasButton:" destination="oRN-it-8Nd" eventType="touchUpInside" id="lKJ-bP-O0A"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7xx-BX-XYl">
+                                <rect key="frame" x="63" y="570" width="249" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.59155882199999998" green="0.65459300259999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                <state key="normal" title="Placeholder3">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.84848151409999994" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="KelimeBasButton:" destination="oRN-it-8Nd" eventType="touchUpInside" id="sPE-d8-reT"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Aşağıdaki 4 şıktan doğru olanı seç" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6uX-qs-ORF">
+                                <rect key="frame" x="34" y="350" width="306" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cooltext323353233102799.png" translatesAutoresizingMaskIntoConstraints="NO" id="C2k-5a-NZL">
+                                <rect key="frame" x="67" y="116" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99588304760000002" green="0.95018321279999995" blue="0.81284672020000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="qWv-bi-1UH"/>
+                    </view>
+                    <connections>
+                        <outlet property="AcıklamaLabel" destination="6uX-qs-ORF" id="35I-cZ-JNK"/>
+                        <outlet property="IngilizceKelimeLabel" destination="RcK-tK-ssv" id="bdL-PF-yYM"/>
+                        <outletCollection property="KelimeButtonları" destination="ikz-79-KtT" collectionClass="NSMutableArray" id="PdB-x3-8Dc"/>
+                        <outletCollection property="KelimeButtonları" destination="pW2-Ag-VKb" collectionClass="NSMutableArray" id="cOl-Cs-Q7N"/>
+                        <outletCollection property="KelimeButtonları" destination="7xx-BX-XYl" collectionClass="NSMutableArray" id="V3E-bO-VKb"/>
+                        <outletCollection property="KelimeButtonları" destination="qbf-ne-TcE" collectionClass="NSMutableArray" id="EDh-bY-7fa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zed-Kl-Xse" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3318" y="900"/>
+        </scene>
+        <!--Kelime Ekle View-->
+        <scene sceneID="Mx2-Zj-sCX">
+            <objects>
+                <viewController id="YJe-zZ-BpK" customClass="KelimeEkleView" customModule="LearningGame_v0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ca3-gC-k8K">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iOS-stock-6-for-iPhone-X-768x1663.png" translatesAutoresizingMaskIntoConstraints="NO" id="yG4-Lf-Ho3">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lWd-FV-zTV">
+                                <rect key="frame" x="63" y="385" width="249" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SBi-a5-DeE">
+                                <rect key="frame" x="63" y="466" width="249" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="İngilizce Kelime" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jWF-gV-MlC">
+                                <rect key="frame" x="114" y="356" width="147" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Türkçe Anlamı" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Osa-Rl-XRH">
+                                <rect key="frame" x="133" y="437" width="108" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bgs-p9-Sla">
+                                <rect key="frame" x="0.0" y="768" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99588304760000002" green="0.95018321279999995" blue="0.81284672020000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="barTintColor" red="0.80605535068219181" green="0.87655307581369857" blue="0.96850810718630154" alpha="0.57039276541095896" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem id="Fue-UJ-Rcp">
+                                        <barButtonItem key="leftBarButtonItem" title="Geri" id="nKK-FZ-rlb">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="coverVertical" id="WZN-lP-WTF"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uvm-Db-Qhm">
+                                <rect key="frame" x="63" y="547" width="249" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kelime Türü" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4V9-5q-IGG">
+                                <rect key="frame" x="142" y="518" width="90" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BlI-px-2Y0">
+                                <rect key="frame" x="95" y="617" width="190" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.59155882199999998" green="0.65459300259999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                <state key="normal" title="Ekle">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.84848151409999994" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="EkleTouch:" destination="YJe-zZ-BpK" eventType="touchUpInside" id="ifP-LY-7IV"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cooltext323351650899739.png" translatesAutoresizingMaskIntoConstraints="NO" id="aVl-o8-mYJ">
+                                <rect key="frame" x="70" y="159" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99588304760000002" green="0.95018321279999995" blue="0.81284672020000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="aqd-P1-QOh"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SpN-xl-0uB"/>
+                    <connections>
+                        <outlet property="EkleButtonStyle" destination="BlI-px-2Y0" id="Rnb-ZU-O5U"/>
+                        <outlet property="ingKelimeTextField" destination="lWd-FV-zTV" id="YvN-SH-3Zn"/>
+                        <outlet property="kelimeTuruTextField" destination="uvm-Db-Qhm" id="2JN-dl-f8J"/>
+                        <outlet property="trKelimeEkleTextField" destination="SBi-a5-DeE" id="nSg-OF-27F"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WNB-WB-80R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3317.5999999999999" y="132.26600985221674"/>
+        </scene>
+        <!--Istatistik View-->
+        <scene sceneID="8vi-ty-sOB">
+            <objects>
+                <viewController id="AqT-5Z-e58" customClass="IstatistikView" customModule="LearningGame_v0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wzQ-6o-lq9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iOS-stock-6-for-iPhone-X-768x1663.png" translatesAutoresizingMaskIntoConstraints="NO" id="1q6-G6-CtN">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SfJ-DL-jW3">
+                                <rect key="frame" x="0.0" y="768" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.83164113759994507" green="0.88963669538497925" blue="0.96750229597091675" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem id="p3C-n8-m34">
+                                        <barButtonItem key="leftBarButtonItem" title="Geri" id="Z23-Pz-ehY">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="coverVertical" id="XWK-uc-NL5"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XiL-2b-utd" customClass="PieChartView" customModule="Charts">
+                                <rect key="frame" x="16" y="248" width="343" height="441"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cooltext324573115240854.png" translatesAutoresizingMaskIntoConstraints="NO" id="vLH-Km-uvF">
+                                <rect key="frame" x="41" y="119" width="292" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="zBc-Wd-0kD"/>
+                    </view>
+                    <connections>
+                        <outlet property="MyPieChartView" destination="XiL-2b-utd" id="qcq-NO-5Lw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mMr-cV-UM5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2013.5999999999999" y="-709.35960591133005"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cooltext323351200125693.png" width="415" height="90"/>
+        <image name="cooltext323351650899739.png" width="257" height="157"/>
+        <image name="cooltext323353233102799.png" width="315" height="157"/>
+        <image name="cooltext324573115240854.png" width="357" height="87"/>
+        <image name="iOS-stock-6-for-iPhone-X-768x1663.png" width="576" height="1247.25"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="SYV-Lm-UhT"/>
+    </inferredMetricsTieBreakers>
+</document>
